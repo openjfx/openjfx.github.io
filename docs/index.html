@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Getting Started with JavaFX 11</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Getting started with JavaFX 11 for Java desktop application development">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- If too heavy, replace it with SVG -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css">
+
+    <!-- Gluon CSS -->
+    <link rel="stylesheet" href="css/gluon.css">
+    <!-- GA Header JS -->
+    <script src="js/ga-header.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">JavaFX</a>
+        </div>
+    </nav>
+    <div class="page-wrapper container-fluid">
+        <div class="container">
+            <h1>Getting Started with JavaFX 11</h1>
+            <div class="row">
+                <div class="col-md-3 sidenav">
+                    <div class="list-group">
+                        <a class="list-group-item active" href="#introduction">Introduction</a>
+                        <a class="list-group-item" href="#install-java">Install Java</a>
+                        <a class="list-group-item" href="#install-javafx">Run HelloWorld using JavaFX 11</a>
+                        <a class="list-group-item" href="#maven">Run HelloWorld via Maven</a>
+                        <a class="list-group-item" href="#gradle">Run HelloWorld via Gradle</a>
+                        <a class="list-group-item" href="#next-steps">Next Steps</a>
+                    </div>
+                </div>
+                <div class="content col-md-9">
+                    <div id="introduction">
+                        <div data-include="introduction.html"></div>
+
+                        <div class="btn-toolbar bottom" role="toolbar">
+                            <a class="btn btn-outline-secondary mr-2 mb-2" role="button" target="_blank" data-section="Introduction">Report a problem</a>
+                            <a class="btn btn-primary mr-2 mb-2" href="#install-java" role="button">Install Java 11 ea</a>
+                            <a class="btn btn-primary mb-2" href="#install-javafx" role="button">I have Java 11 ea installed</a>
+                        </div>
+                    </div>
+                    <div id="install-java" class="hidden">
+                        <div data-include="install-java.html"></div>
+
+                        <div class="btn-toolbar bottom" role="toolbar">
+                            <a class="btn btn-outline-secondary mr-2 mb-2" role="button" target="_blank" data-section="Install Java">Report a problem</a>
+                            <a class="btn btn-primary mb-2" href="#install-javafx" role="button">Install JavaFX SDK</a>
+                        </div>
+                    </div>
+                    <div id="install-javafx" class="hidden">
+                        <div data-include="install-javafx.html"></div>
+
+                        <div class="btn-toolbar bottom" role="toolbar">
+                            <a class="btn btn-outline-secondary mr-2 mb-2" role="button" target="_blank" data-section="Install JavaFX">Report a problem</a>
+                            <a class="btn btn-primary mb-2" href="#maven" role="button">Run HelloWorld via Maven</a>
+                        </div>
+                    </div>
+                    <div id="maven" class="hidden">
+                        <div data-include="maven.html"></div>
+
+                        <div class="btn-toolbar bottom" role="toolbar">
+                            <a class="btn btn-outline-secondary mr-2 mb-2" role="button" target="_blank" data-section="Maven">Report a problem</a>
+                            <a class="btn btn-primary mb-2" href="#gradle" role="button">Run HelloWorld via Gradle</a>
+                        </div>
+                    </div>
+                    <div id="gradle" class="hidden">
+                        <div data-include="gradle.html"></div>
+
+                        <div class="btn-toolbar bottom" role="toolbar">
+                            <a class="btn btn-outline-secondary mr-2 mb-2" role="button" target="_blank" data-section="Gradle">Report a problem</a>
+                            <a class="btn btn-primary mb-2" href="#next-steps" role="button">Next steps</a>
+                        </div>
+                    </div>
+                    <div id="next-steps" class="hidden">
+                        <div data-include="next-steps.html"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script to include html -->
+    <!-- TODO: Check for Chrome compatibility -->
+    <!-- TODO: hyperlinks doesn't get styled in their files -->
+    <script src="https://cdn.jsdelivr.net/gh/LexmarkWeb/csi.js@0.1.0/csi.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!--GA footer JS-->
+    <script src="js/ga-footer.js"></script>
+    <!-- Gluon JS -->
+    <script src="js/gluon.js"></script>
+</body>
+</html>

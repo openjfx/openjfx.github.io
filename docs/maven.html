@@ -1,0 +1,24 @@
+<h2>Run HelloWorld using Maven</h2>
+
+<p>
+    If you want to develop JavaFX applications using maven, you don't have to download
+    the OpenJFX SDK. Just specify the modules and the versions you want in the pom.xml,
+    the build system will download the required modules, including the native libraries for your platform.
+</p>
+<p>
+    Here is a <a href="pom.xml">pom.xml</a> file which shows how to achieve this.
+</p>
+<p>
+    Run the application (e.g. use <a href="HelloFX.java">HelloFX.java</a>) using:
+</p>
+
+<pre><code>
+mvn compile exec:java
+</code></pre>
+
+<div class="alert alert-warning">
+    <strong>Note: </strong>
+    Make sure to set the JAVA_HOME environment variable to JDK 11.
+</div>
+
+
