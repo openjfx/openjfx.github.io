@@ -1,6 +1,8 @@
 :root {
-    --base-color: #52d3aa;
-    --alternate-color: #3f95ea;
+    --base-color: #3f95ea;
+    --terminal-color: #000000;
+    --code-color: #2ed3a6;
+    --header-color: #444;
     --gradient-color: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
 }
 
@@ -25,7 +27,7 @@ h1, h2, h3 {
     letter-spacing: -.01em;
     line-height: 1.2;
     word-spacing: -.05em;
-    color: #444;
+    color: var(--header-color);
 }
 
 h1 {
@@ -38,17 +40,18 @@ pre {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background: var(--gradient-color);
+    background: var(--terminal-color);
     border-radius: 5px;
 }
 
 code {
-    color: #fff !important;
+    color: var(--code-color) !important;
 }
 
 kbd {
-    background-color: var(--alternate-color);
+    background-color: var(--terminal-color);
     white-space:nowrap;
+    color: var(--code-color);
 }
 
 p {
@@ -62,7 +65,7 @@ p {
 
 a,
 a:visited {
-    color: var(--alternate-color);
+    color: var(--base-color);
 }
 
 /** Header **/
@@ -112,8 +115,8 @@ a:visited {
 .navbar-brand {
     color: #ffffff !important;
     font-family: "Source Sans Pro", Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .content img {
@@ -152,17 +155,13 @@ img.hello-world {
 }
 
 .btn-primary,
+.btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
     background-color: var(--base-color) !important;
     border-color: var(--base-color) !important;
     color: #ffffff;
-}
-
-.btn-primary:hover {
-    background-color: var(--alternate-color) !important;
-    border-color: var(--alternate-color) !important;
 }
 
 /*No side nav when width is below 768px*/
