@@ -1,9 +1,10 @@
 :root {
-    --base-color: #3f95ea;
+    --base-color: #4CD4AC;
     --terminal-color: #2B3E50;
     --code-color: #F8F8F1;
     --header-color: #444;
     --gradient-color: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+    --button-background-color: #4CD4AC;
 }
 
 /** Copy styles from Gluon Docs **/
@@ -159,8 +160,8 @@ img.hello-world {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-    background-color: var(--base-color) !important;
-    border-color: var(--base-color) !important;
+    background-color: var(--button-background-color) !important;
+    border-color: var(--button-background-color) !important;
     color: #ffffff;
 }
 
