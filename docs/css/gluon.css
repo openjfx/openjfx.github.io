@@ -1,7 +1,7 @@
 :root {
     --base-color: #3f95ea;
-    --terminal-color: #000000;
-    --code-color: #2ed3a6;
+    --terminal-color: #2B3E50;
+    --code-color: #F8F8F1;
     --header-color: #444;
     --gradient-color: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
 }
