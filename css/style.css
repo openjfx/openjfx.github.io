@@ -628,7 +628,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-documentation a {
   color: rgba(255, 255, 255, 0.5);
-  text-decoration: underline;
 }
 #fh5co-documentation a:hover {
   color: white;
