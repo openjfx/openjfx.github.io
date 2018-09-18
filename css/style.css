@@ -995,7 +995,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   position: relative;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -1405,6 +1404,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 0;
   color: #7f7f7f;
   position: relative;
+  font-size: 13px;
 }
 #footer .gotop {
   position: absolute;
@@ -1435,6 +1435,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   margin-bottom: 0px;
   padding-bottom: 0;
+}
+
+#footer .gluon .icon-heart2 {
+  color: crimson;
 }
 
 .btn {
