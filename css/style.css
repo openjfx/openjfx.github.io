@@ -626,9 +626,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
 
-#fh5co-documentation a {
-  color: rgba(255, 255, 255, 0.5);
-}
+#fh5co-documentation a,
 #fh5co-documentation a:hover {
   color: white;
 }
@@ -967,6 +965,9 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   margin-bottom: -35px;
 }
+#fh5co-testimonials .section-heading {
+    padding-bottom: 0;
+}
 #fh5co-testimonials .section-heading h2 {
   color: #fff;
 }
@@ -991,9 +992,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   border-left: none;
   padding: 30px;
-  background: #fbffe7;
-  font-size: 20px;
-  font-weight: 300;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
   position: relative;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
