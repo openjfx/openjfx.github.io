@@ -1,0 +1,23 @@
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
+				</div>
+			</div>
+			<div class="gluon">
+				<div class="col-md-12 text-center">
+					<a href="https://gluonhq.com" target="_blank">Gluon</a> <i class="icon-heart2"></i> OpenJFX
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+					{{ range .Site.Params.footer.links }}
+						<li><a href="{{ with index . 1}}{{ . }}{{ end }}"><i class="{{ with index . 0}}{{ . }}{{ end }}"></i></a></li>
+					{{ end }}
+					</ul>
+				</div>
+			</div>-->
+		</div>
+	</footer>
