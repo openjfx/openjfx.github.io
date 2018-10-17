@@ -1,4 +1,4 @@
-![OpenJFX logo](images/javafx-shadow.png)
+![OpenJFX logo](static/images/javafx-shadow.png)
 
 # OpenJFX
 
