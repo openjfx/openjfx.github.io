@@ -1,0 +1,27 @@
+language: generic
+
+# required to install tools on Linux
+sudo: required
+
+branches:
+  only:
+  - develop
+
+install:
+    # install latest release version of hugo
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.49.2_Linux-64bit.deb
+
+script:
+    - hugo
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  verbose: true
+  keep-history: true
+  local-dir: public
+  target-branch: master
+  on:
+    branch: develop
