@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
     brand = 'JavaFX'
     home = "Home"
     documentation = "Documentation"
-    events = "Upcoming Events"
+    # events = "Upcoming Events"
     work = "Community"
     testimonials = "Testimonials"
 
@@ -93,35 +93,35 @@ theme = "hugo-elate-theme"
       img = "img_10.jpg"
 
   # Events section
-  [params.events]
-    enable = true
-    title = "Upcoming Events"
-    description = ""
-    footertext= ""
-
-    [[params.events.row]]
-      title = 'Oracle Code One'
-      subtitle = "A new developer conference that's inclusive to more languages, technologies, and developer communities."
-      dates = "October 22-25, 2018"
-      url = "https://oracle.rainfocus.com/widget/oracle/oow18/catalogcodeone18?search=javafx"
-      img = "oracle-code-one.png"
-      alt = "Image2"
-
-    [[params.events.row]]
-      title = 'Devoxx Belgium 2018'
-      subtitle = "From Developers, For Developers!"
-      dates = "November 12-16, 2018"
-      url = "https://dvbe18.confinabox.com/search?q=javafx"
-      img = "DevoxxLogo.png"
-      alt = "Image2"
-
-    [[params.events.row]]
-      title = 'JavaFX Days Zurich'
-      subtitle = "A conference focused on the JavaFX technology for developing state-of-the-art desktop and mobile applications."
-      dates = "December 3-5, 2018"
-      url = "https://www.javafx-days.com/"
-      img = "JavaFX-Days.png"
-      alt = "Image2"
+  #[params.events]
+  #  enable = true
+  #  title = "Upcoming Events"
+  #  description = ""
+  #  footertext= ""
+  #
+  #  [[params.events.row]]
+  #    title = 'Oracle Code One'
+  #    subtitle = "A new developer conference that's inclusive to more languages, technologies, and developer communities."
+  #    dates = "October 22-25, 2018"
+  #    url = "https://oracle.rainfocus.com/widget/oracle/oow18/catalogcodeone18?search=javafx"
+  #    img = "oracle-code-one.png"
+  #    alt = "Image2"
+  #
+  #  [[params.events.row]]
+  #    title = 'Devoxx Belgium 2018'
+  #    subtitle = "From Developers, For Developers!"
+  #    dates = "November 12-16, 2018"
+  #    url = "https://dvbe18.confinabox.com/search?q=javafx"
+  #    img = "DevoxxLogo.png"
+  #    alt = "Image2"
+  #
+  #  [[params.events.row]]
+  #    title = 'JavaFX Days Zurich'
+  #    subtitle = "A conference focused on the JavaFX technology for developing state-of-the-art desktop and mobile applications."
+  #    dates = "December 3-5, 2018"
+  #    url = "https://www.javafx-days.com/"
+  #    img = "JavaFX-Days.png"
+  #    alt = "Image2"
 
 
   # Testimonials section
