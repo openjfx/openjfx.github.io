@@ -268,6 +268,13 @@ theme = "hugo-elate-theme"
       subtitle = "Font icon packs for JavaFX applications"
       url = "https://github.com/aalmiray/ikonli"
 
+    [[params.work.row]]
+      img = "TilesFX.png"
+      alt = "TilesFX"
+      title = "TilesFX"
+      subtitle = "A JavaFX library containing tiles for Dashboards"
+      url = "https://github.com/HanSolo/tilesfx"
+
   # Services section
   [params.services]
     enable = false
