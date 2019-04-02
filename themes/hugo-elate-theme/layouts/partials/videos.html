@@ -1,0 +1,28 @@
+    <section id="fh5co-videos" data-section="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate fadeInUp animated">{{ with .Site.Params.videos.title }}{{ . | markdownify }}{{ end }}</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                            <h3>{{ with .Site.Params.videos.description }}{{ . | markdownify }}{{ end }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {{ range .Site.Params.videos.item }}
+                <div class="fh5co-block" style="background-image: url(images/{{ .img }});">
+                    <div class="overlay-darker"></div>
+                    <div class="overlay"></div>
+                    <div class="fh5co-text">
+                        <i class="fh5co-intro-icon {{ .icon }}"></i>
+                        <h2>{{ .title }}</h2>
+                        <p>{{ .description }}</p>
+                        <p><a href="{{ .url }}" target="_blank" class="btn btn-primary">{{ .button}}</a></p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>

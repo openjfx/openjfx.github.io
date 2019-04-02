@@ -21,6 +21,7 @@ theme = "hugo-elate-theme"
     events = "Upcoming Events"
     work = "Community"
     testimonials = "Testimonials"
+    videos = "Videos"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -91,6 +92,28 @@ theme = "hugo-elate-theme"
       button = "Visit"
       icon = "icon-book-open"
       img = "img_10.jpg"
+      
+  # Videos section
+  [params.videos]
+    enable = true
+    title = "Videos"
+    description = ""
+
+    [[params.videos.item]]
+      title = "JavaFX Days"
+      description = "all videos from JavaFX Days Zürich 2018"
+      url = "https://www.youtube.com/playlist?list=PLUuxQkXkh-hhvCC0t8JvPcmtsdUzUAFAY"
+      button = "Watch"
+      icon = "icon-video2"
+      img = "img_7.jpg"
+      
+   [[params.videos.item]]
+      title = "OpenJFX"
+      description = "all videos about OpenJFX on YouTube"
+      url = "https://www.youtube.com/results?search_query=openjfx"
+      button = "Watch"
+      icon = "icon-video2"
+      img = "img_7.jpg"
 
   # Events section
   [params.events]

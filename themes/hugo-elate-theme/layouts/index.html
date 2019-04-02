@@ -29,6 +29,11 @@
         {{ if .Site.Params.events.enable }}
             {{ partial "events.html" .}}
         {{ end }}
+        
+        {{ if .Site.Params.videos.enable }}
+			{{ partial "videos.html" .}}
+		{{ end }}
+        
 		{{ if .Site.Params.services.enable }}
         	{{ partial "services.html" .}}
 		{{ end }}

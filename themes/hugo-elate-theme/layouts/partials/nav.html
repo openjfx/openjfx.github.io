@@ -31,6 +31,10 @@
                     {{ if .Site.Params.events.enable }}
                     <li><a href="#" data-nav-section="events"><span>{{ with .Site.Params.navigation.events }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
+                    
+                    {{ if .Site.Params.videos.enable }}
+                    <li><a href="#" data-nav-section="videos"><span>{{ with .Site.Params.navigation.videos }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
 
                     {{ if .Site.Params.services.enable }}
                     <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
