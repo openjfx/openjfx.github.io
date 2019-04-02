@@ -211,7 +211,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Community"
-    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the <a href='http://mail.openjdk.java.net/mailman/listinfo/openjfx-dev' target='_blank'>open source mailing list</a>. Here are a few examples of tools and frameworks already supporting JavaFX 11."
+    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source <a href='http://mail.openjdk.java.net/mailman/listinfo/openjfx-discuss' target='_blank'>general discussion</a> and <a href='http://mail.openjdk.java.net/mailman/listinfo/openjfx-dev' target='_blank'>development mailing list</a>.<br/>Here are a few examples of tools and frameworks already supporting JavaFX 11."
     footertext = ''
 
     [[params.work.row]]
