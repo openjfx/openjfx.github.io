@@ -274,6 +274,13 @@ theme = "hugo-elate-theme"
       title = "TilesFX"
       subtitle = "A JavaFX library containing tiles for Dashboards"
       url = "https://github.com/HanSolo/tilesfx"
+      
+    [[params.work.row]]
+      img = "FXGL.jpg"
+      alt = "FXGL"
+      title = "FXGL"
+      subtitle = "JavaFX game engine"
+      url = "https://github.com/AlmasB/FXGL"
 
   # Services section
   [params.services]
