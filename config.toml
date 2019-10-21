@@ -71,7 +71,7 @@ theme = "hugo-elate-theme"
     [[params.documentation.item]]
       title = "Release Notes"
       description = "Read about what is new in JavaFX 13"
-      url = "https://github.com/javafxports/openjdk-jfx/blob/jfx-13/doc-files/release-notes-13.md#release-notes-for-javafx-13"
+      url = "https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-13.md"
       button = "Visit"
       icon = "icon-book-open"
       img = "img_7.jpg"
