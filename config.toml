@@ -33,7 +33,7 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = 'JavaFX 13'
+    title = 'JavaFX 14'
     subtitle = 'OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.</br> It is a collaborative effort by many individuals and companies with the goal of producing a modern, efficient, and fully featured toolkit for developing rich client applications.</br></br>'
 
   # Intro section
@@ -42,7 +42,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Download"
-    description = 'The JavaFX 13 runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in Maven Central.'
+    description = 'The JavaFX 14 runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in Maven Central.'
     url = "https://gluonhq.com/products/javafx/"
     button = "Download"
     icon = "icon-cloud-download"
@@ -70,15 +70,15 @@ theme = "hugo-elate-theme"
 
     [[params.documentation.item]]
       title = "Release Notes"
-      description = "Read about what is new in JavaFX 13"
-      url = "https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-13.md"
+      description = "Read about what is new in JavaFX 14"
+      url = "https://github.com/openjdk/jfx/blob/jfx14/doc-files/release-notes-14.md"
       button = "Visit"
       icon = "icon-book-open"
       img = "img_7.jpg"
 
     [[params.documentation.item]]
       title = "Getting Started"
-      description = "Get started quickly and easily with JavaFX 13"
+      description = "Get started quickly and easily with JavaFX 14"
       url = "/openjfx-docs/"
       button = "Visit"
       icon = "icon-book-open"
@@ -86,8 +86,8 @@ theme = "hugo-elate-theme"
 
     [[params.documentation.item]]
       title = "Javadoc"
-      description = "API documentation for JavaFX 13"
-      url = "/javadoc/13/"
+      description = "API documentation for JavaFX 14"
+      url = "/javadoc/14/"
       button = "Visit"
       icon = "icon-book-open"
       img = "img_10.jpg"
@@ -188,7 +188,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Community"
-    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the <a href='http://mail.openjdk.java.net/mailman/listinfo/openjfx-dev' target='_blank'>open source mailing list</a>. Here are a few examples of tools and frameworks already supporting JavaFX 13."
+    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the <a href='http://mail.openjdk.java.net/mailman/listinfo/openjfx-dev' target='_blank'>open source mailing list</a>. Here are a few examples of tools and frameworks already supporting JavaFX 14."
     footertext = ''
 
     [[params.work.row]]
@@ -286,7 +286,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = false
     title = "Community"
-    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source mailing list, the forum discussions. Here just some of the examples of tools and frameworks already supporting JavaFX 13"
+    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source mailing list, the forum discussions. Here just some of the examples of tools and frameworks already supporting JavaFX 14"
 
     [[params.services.item]]
       title = '<a href="https://dlsc.com/products/flexganttfx/" target="_blank">FlexGanttFX</a>'
