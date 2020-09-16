@@ -9,8 +9,8 @@ branches:
 
 install:
     # install latest release version of hugo
-    - wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.deb
-    - sudo dpkg -i hugo_0.49.2_Linux-64bit.deb
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.75.1_Linux-64bit.deb
 
 script:
     - hugo
