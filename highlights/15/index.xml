@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaFX 15 Highlights on JavaFX</title>
+    <link>localhost:1313/highlights/15/</link>
+    <description>Recent content in JavaFX 15 Highlights on JavaFX</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="localhost:1313/highlights/15/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

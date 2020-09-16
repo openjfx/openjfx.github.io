@@ -8,8 +8,17 @@
   </url>
   
   <url>
+    <loc>localhost:1313/highlights/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>localhost:1313/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/highlights/15/</loc>
   </url>
   
   <url>
