@@ -9,7 +9,7 @@ p.content {
 }
 
 h1#javafx-15-highlights {
-    color: #fff;
+    text-decoration: underline;
 }
 
 .content #fh5co-home {
@@ -22,4 +22,13 @@ h1#javafx-15-highlights {
 
 .content a {
     color: #000;
+    font-weight: 500;
+}
+
+.content .box {
+    margin-bottom: 3em;
+    background-color: white;
+    border-radius: 7px;
+    color: dimgray;
+    padding: 2em;
 }

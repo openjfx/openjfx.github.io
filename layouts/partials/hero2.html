@@ -4,7 +4,9 @@
         <div class="text-wrap">
             <div class="row">
                 <div class="col-md-12">
-                    {{ .Content | replaceRE "<p>" "<p class=\"content\">" | safeHTML }}
+                    <div class="box">
+                        {{ .Content | replaceRE "<p>" "<p class=\"content\">" | safeHTML }}
+                    </div>
                 </div>
             </div>
         </div>

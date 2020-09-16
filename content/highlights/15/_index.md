@@ -42,4 +42,4 @@ Finally, these are some dependency upgrades in JavaFX 15:
 
 A more comprehensive list of all the changes in JavaFX 15 can be found on [Github](https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-15.md).
 
-Kudos go to the fine people at Gluon who took care of the bulk of the work on JavaFX 15. Check their [website if you need support for JavaFX](https://gluonhq.com/services/javafx-support/).
+Kudos go to the fine people at [Gluon](https://gluonhq.com) who took care of the bulk of the work on JavaFX 15. Do check their [JavaFX Long Term Support](https://gluonhq.com/services/javafx-support/) services.
