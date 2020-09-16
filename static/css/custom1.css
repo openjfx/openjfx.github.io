@@ -2,3 +2,24 @@
     font-size: 40px;
     font-weight: 300;
 }
+
+p.content {
+    margin-bottom: 1.0em;
+    margin-top: 1.0em;
+}
+
+h1#javafx-15-highlights {
+    color: #fff;
+}
+
+.content #fh5co-home {
+    height: auto;
+}
+
+.content .container .row {
+    margin-top: 6em;
+}
+
+.content a {
+    color: #000;
+}

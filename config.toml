@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["/css/custom1.css", "/css/custom2.css"]
 
   # Meta
   author = ""
@@ -30,6 +30,12 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "/highlights/15"
+      name = "Highlights"
+      weight = 1
 
   # Hero section
   [params.hero]
