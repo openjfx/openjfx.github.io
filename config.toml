@@ -288,6 +288,13 @@ theme = "hugo-elate-theme"
       subtitle = "JavaFX game engine"
       url = "https://github.com/AlmasB/FXGL"
 
+    [[params.work.row]]
+      img = "Hero1_0.jpg"
+      alt = "Hero 1.0"
+      title = "Hero 1.0"
+      subtitle = "CAD application"
+      url = "https://pixelduke.com/2020/07/27/creating-a-cad-application-in-java-javafx/"
+
   # Services section
   [params.services]
     enable = false
