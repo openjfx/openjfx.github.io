@@ -294,6 +294,13 @@ theme = "hugo-elate-theme"
       title = "Hero 1.0"
       subtitle = "CAD application"
       url = "https://pixelduke.com/2020/07/27/creating-a-cad-application-in-java-javafx/"
+      
+    [[params.work.row]]
+      img = "ValidatorFX.png"
+      alt = "ValidatorFX"
+      title = "ValidatorFX"
+      subtitle = "Form validation library"
+      url = "https://github.com/effad/ValidatorFX"
 
   # Services section
   [params.services]
