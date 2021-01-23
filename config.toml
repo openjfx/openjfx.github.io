@@ -302,6 +302,27 @@ theme = "hugo-elate-theme"
       subtitle = "Form validation library"
       url = "https://github.com/effad/ValidatorFX"
 
+    [[params.work.row]]
+      img = "AsciidocFX.png"
+      alt = "AsciidocFX"
+      title = "AsciidocFX"
+      subtitle = "An Asciidoc editor to build PDF, Epub, Mobi and HTML books, documents and slides"
+      url = "https://github.com/asciidocfx/AsciidocFX"
+
+    [[params.work.row]]
+      img = "Recaf.png"
+      alt = "Recaf"
+      title = "Recaf"
+      subtitle = "An easy to use modern Java bytecode editor"
+      url = "https://github.com/Col-E/Recaf"
+
+    [[params.work.row]]
+      img = "JITWatch.png"
+      alt = "JITWatch"
+      title = "JITWatch"
+      subtitle = "A Log analyser and visualiser for the HotSpot JIT compiler."
+      url = "https://github.com/AdoptOpenJDK/jitwatch"
+
   # Services section
   [params.services]
     enable = false
