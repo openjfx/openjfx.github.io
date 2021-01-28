@@ -4,7 +4,7 @@
 				<div class="col-md-12 section-heading text-left">
 					<h2 class=" left-border to-animate">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
 					<div class="row">
-						<div class="col-md-8 subtext to-animate">
+						<div class="col-md-12 subtext to-animate">
 							<h3>{{ with .Site.Params.services.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
 					</div>
@@ -16,6 +16,10 @@
 					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
+					<p>
+						<a href="{{ .url1 }}" target="_blank">{{ .text1 }}</a>
+						<a href="{{ .url2 }}" target="_blank">{{ .text2 }}</a>
+					<p>
 				</div>
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}
