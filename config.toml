@@ -72,7 +72,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "One framework to rule them all"
-    description = "JavaFX applications can target desktop, mobile and embedded systems. Libraries and softwares are available for the entire life-cycle of an application."
+    description = "JavaFX applications can target desktop, mobile and embedded systems. Libraries and software are available for the entire life-cycle of an application."
 
     [[params.services.item]]
       title = 'Scene Builder'
