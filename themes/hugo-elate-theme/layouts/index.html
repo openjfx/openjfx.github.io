@@ -14,6 +14,10 @@
 		
         {{ partial "intro.html" .}}
 
+		{{ if .Site.Params.services.enable }}
+		{{ partial "services.html" .}}
+		{{ end }}
+
 		{{ if .Site.Params.documentation.enable }}
 			{{ partial "documentation.html" .}}
 		{{ end }}
@@ -29,9 +33,6 @@
         {{ if .Site.Params.events.enable }}
             {{ partial "events.html" .}}
         {{ end }}
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
-		{{ end }}
 
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}

@@ -11,18 +11,33 @@
                 </div>
             </div>
             <div class="row">
-                {{ range .Site.Params.documentation.item }}
-                <div class="fh5co-block" style="background-image: url(images/{{ .img }});">
-                    <div class="overlay-darker"></div>
-                    <div class="overlay"></div>
-                    <div class="fh5co-text">
-                        <i class="fh5co-intro-icon {{ .icon }}"></i>
-                        <h2>{{ .title }}</h2>
-                        <p>{{ .description }}</p>
-                        <p><a href="{{ .url }}" target="_blank" class="btn btn-primary">{{ .button}}</a></p>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="mr-2 card">
+                        <i class="icon icon-book-open"></i>
+                        <h3>Reference Documentation</h3>
+                        <ul class="text-left">
+                            {{ range .Site.Params.documentation.reference.item }}
+                            <li>
+                                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
                     </div>
                 </div>
-                {{ end }}
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="ml-2 card">
+                        <i class="icon icon-book-open"></i>
+                        <h3>Community Documentation</h3>
+                        <ul class="text-left">
+                            {{ range .Site.Params.documentation.community.item }}
+                            <li>
+                                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
             </div>
         </div>
     </section>
