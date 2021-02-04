@@ -32,3 +32,102 @@ h1#javafx-15-highlights {
     color: dimgray;
     padding: 2em;
 }
+
+
+/* intro */
+#fh5co-intro {
+    padding-bottom: 0;
+}
+
+/*services*/
+#fh5co-services {
+    background: transparent;
+    color: #7f7f7f;
+}
+
+#fh5co-services h3 {
+    color: #7f7f7f;
+}
+
+#fh5co-services .fh5co-service h3 {
+    color: #52d3aa;
+}
+
+#fh5co-services .fh5co-service a:first-child {
+    padding: 0 0.25em 0 0;
+}
+
+#fh5co-services .fh5co-service a:last-child {
+    padding: 0 0 0 0.25em;
+}
+
+#fh5co-services .fh5co-service a {
+    color: #52d3aa !important;
+}
+
+#fh5co-services .fh5co-service a:hover, a:active, a:focus {
+    color: #52d3aa !important;
+}
+
+#fh5co-services .icon:before {
+    color: #000000;
+}
+#fh5co-services .section-heading h2 {
+    color: #000000;
+}
+#fh5co-services .section-heading h2.left-border:after {
+    background: #A4D792;
+}
+
+/** documentation **/
+#fh5co-documentation .row {
+    display: flex;
+}
+
+#fh5co-documentation .card {
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 2em 1em 1em 1em;
+    height: 100%;
+}
+
+#fh5co-documentation .card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+#fh5co-documentation .card .icon {
+    font-size: 50px;
+    color: #52d3aa;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#fh5co-documentation .card ul,
+#fh5co-documentation .card ul li a {
+    color: #7f7f7f;
+}
+
+#fh5co-documentation .community {
+    padding-top: 2em;
+}
+
+#fh5co-documentation .community h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+#fh5co-documentation .community a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#fh5co-documentation .community a:hover, a:active, a:focus {
+    color: #A4D792;
+}
