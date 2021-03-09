@@ -2,7 +2,7 @@
 <head>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Categories</title>
+    <title> JavaFX 16 Highlights</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -14,11 +14,11 @@
     
     
     <meta name="og:site_name" content="JavaFX">
-    <meta name="og:title" content="Categories">
-    <meta name="og:url" content="localhost:1313/categories/">
+    <meta name="og:title" content="JavaFX 16 Highlights">
+    <meta name="og:url" content="localhost:1313/highlights/16/">
     <meta name="og:image" content="localhost:1313images/">
     <meta name="twitter:title" content="JavaFX" />
-    <meta name="twitter:url" content="localhost:1313/categories/" />
+    <meta name="twitter:url" content="localhost:1313/highlights/16/" />
     <meta name="twitter:image" content="localhost:1313images/" />
     <meta name="twitter:card" content="" />
     
@@ -60,7 +60,7 @@
     <script src="/js/analytics.js"></script>
 
 </head>
-<body class="">
+<body class="content">
     <header role="banner" id="fh5co-header">
         <div class="container">
             
@@ -116,7 +116,44 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="box">
-                        
+                        <h1 id="javafx-16-highlights">JavaFX 16 Highlights</h1>
+<p class="content">JavaFX version 16 has been released. We&rsquo;ve tailored down some of the most exciting parts of the release in this document.</p>
+<p class="content">Exciting features:</p>
+<ul>
+<li>Attenuation has been added for PointLight in JavaFX 3D</li>
+<li>Performance improvement for all controls using VirtualFlow</li>
+</ul>
+<p class="content">Improvements:</p>
+<ul>
+<li>JavaFX will now warn if any <code>javafx.*</code> modules are loaded from the classpath</li>
+<li>ImagePattern has been improved to apply SVG pattern transforms</li>
+<li>Transformation javadoc in Node has been re-written for clarity</li>
+</ul>
+<p class="content">Removal and Clean up:</p>
+<ul>
+<li>Obsolete Pisces rasterizer has been removed</li>
+</ul>
+<p class="content">In the bug fix department, you’ll find, among others:</p>
+<ul>
+<li>Undecorated stage were not being able to be maximized on Linux and MacOS. It has now been fixed in both the places</li>
+<li>Nested calls to snap methods in Region now gives consistent results</li>
+<li>At certain DPI scaling levels, control labels used to truncate inside a Dialog. This has been fixed</li>
+<li>System menu bar now works on macOS Catalina</li>
+<li>Fix misbehavior on switching skin for:
+<ul>
+<li>ChoiceBox</li>
+<li>Labeled</li>
+<li>ListCell</li>
+<li>TabPane</li>
+<li>TreeCell</li>
+<li>TreeView</li>
+</ul>
+</li>
+<li>On Android platform, the keyboard now displays correctly when tapped on a TextInput control</li>
+</ul>
+<p class="content">A more comprehensive list of all the changes in JavaFX 16 can be found on <a href="https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-16.md">Github</a>.</p>
+<p class="content">Kudos go to the fine people at <a href="https://gluonhq.com">Gluon</a> who took care of the bulk of the work on JavaFX 16. Do check their <a href="https://gluonhq.com/services/javafx-support/">JavaFX Long Term Support</a> services.</p>
+
                     </div>
                 </div>
             </div>
