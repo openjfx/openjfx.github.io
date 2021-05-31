@@ -294,6 +294,13 @@ theme = "hugo-elate-theme"
       subtitle = "A Log analyser and visualiser for the HotSpot JIT compiler."
       url = "https://github.com/AdoptOpenJDK/jitwatch"
 
+    [[params.work.row]]
+    img = "JMetro-hero_image.png"
+    alt = "JMetro"
+    title = "JMetro"
+    subtitle = "A modern theme for JavaFX applications with light and dark style"
+    url = "https://pixelduke.com/java-javafx-theme-jmetro/"
+
   # Testimonials section
   [params.testimonials]
   enable = true
