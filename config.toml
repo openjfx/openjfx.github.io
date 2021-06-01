@@ -301,6 +301,13 @@ theme = "hugo-elate-theme"
     subtitle = "A modern theme for JavaFX applications with light and dark style"
     url = "https://pixelduke.com/java-javafx-theme-jmetro/"
 
+    [[params.work.row]]
+    img = "Charts.png"
+    alt = "Charts"
+    title = "Charts"
+    subtitle = "A library for scientific charts in JavaFX."
+    url = "https://github.com/HanSolo/charts"
+
   # Testimonials section
   [params.testimonials]
   enable = true
