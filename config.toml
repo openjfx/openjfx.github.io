@@ -308,6 +308,13 @@ theme = "hugo-elate-theme"
     subtitle = "A JavaFX library for Gauges and Clocks."
     url = "https://github.com/HanSolo/Medusa"
 
+    [[params.work.row]]
+    img = "Charts.png"
+    alt = "Charts"
+    title = "Charts"
+    subtitle = "A library for scientific charts in JavaFX."
+    url = "https://github.com/HanSolo/charts"
+
   # Testimonials section
   [params.testimonials]
   enable = true
