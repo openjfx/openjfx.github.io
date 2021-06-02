@@ -315,6 +315,13 @@ theme = "hugo-elate-theme"
     subtitle = "A library for scientific charts in JavaFX."
     url = "https://github.com/HanSolo/charts"
 
+    [[params.work.row]]
+    img = "modellusX.jpg"
+    alt = "ModellusX"
+    title = "Modellus X"
+    subtitle = "A freely available application used worlwide that enables students and teachers (high school and university) to use mathematics to create or explore models interactively."
+    url = "https://pixelduke.com/work/#Modellus"
+
   # Testimonials section
   [params.testimonials]
   enable = true
