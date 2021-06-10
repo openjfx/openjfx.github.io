@@ -322,6 +322,13 @@ theme = "hugo-elate-theme"
     subtitle = "A freely available application used worlwide that enables students and teachers (high school and university) to use mathematics to create or explore models interactively."
     url = "https://pixelduke.com/work/#Modellus"
 
+    [[params.work.row]]
+    img = "FXRibbon.png"
+    alt = "FXRibbon"
+    title = "FXRibbon"
+    subtitle = "Ribbon control library for JavaFX, based on the Microsoft Ribbon."
+    url = "https://pixelduke.com/fxribbon/"
+
   # Testimonials section
   [params.testimonials]
   enable = true
