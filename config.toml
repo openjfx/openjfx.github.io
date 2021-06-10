@@ -329,6 +329,13 @@ theme = "hugo-elate-theme"
     subtitle = "Ribbon control library for JavaFX, based on the Microsoft Ribbon."
     url = "https://pixelduke.com/fxribbon/"
 
+    [[params.work.row]]
+    img = "FXSkins.jpg"
+    alt = "FXSkins"
+    title = "FXSkins"
+    subtitle = "A library of new Skins for JavaFX controls. These Skins will add more functionality to the controls of your applications with no need to make code changes."
+    url = "https://pixelduke.com/FXSkins/"
+
   # Testimonials section
   [params.testimonials]
   enable = true
