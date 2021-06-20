@@ -336,6 +336,13 @@ theme = "hugo-elate-theme"
     subtitle = "A library of new Skins for JavaFX controls. These Skins will add more functionality to the controls of your applications with no need to make code changes."
     url = "https://pixelduke.com/FXSkins/"
 
+    [[params.work.row]]
+    img = "MaterialFX.jpg"
+    alt = "MaterialFX"
+    title = "MaterialFX"
+    subtitle = "MaterialFX is not just another theme. MaterialFX brings restyles, remade and brand new controls to JavaFX. It also offer many utilities to ease JavaFX apps development."
+    url = "https://github.com/palexdev/MaterialFX"
+
   # Testimonials section
   [params.testimonials]
   enable = true
