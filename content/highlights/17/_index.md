@@ -41,6 +41,6 @@ Finally, these are some dependency upgrades in JavaFX 17:
 - Update ICU4C to version 68.2
 - Update libxml2 to version 2.9.12
 
-A more comprehensive list of all the changes in JavaFX 17 can be found on [Github](https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-17.md).
+A more comprehensive list of all the changes in JavaFX 17 can be found on [Github](https://github.com/openjdk/jfx/blob/jfx17/doc-files/release-notes-17.md).
 
 Kudos go to the fine people at [Gluon](https://gluonhq.com) who took care of the bulk of the work on JavaFX 17. Do check their [JavaFX Long Term Support](https://gluonhq.com/services/javafx-support/) services.
