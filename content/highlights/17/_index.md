@@ -8,7 +8,7 @@ styleclass: "content"
 JavaFX version 17 has been released and embarks a new LTS release after 11.
 We've tailored down some of the most exciting parts of the release in this document.
 
-Exciting features:
+New features:
 - Stylesheets and Images support data-URIs
 - "Print to File" support added to JavaFX
 - Spotlight, a PointLight that can radiate light in a cone in a specific direction, has been added to JavaFX 3D
