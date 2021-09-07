@@ -319,7 +319,7 @@ theme = "hugo-elate-theme"
     img = "modellusX.jpg"
     alt = "ModellusX"
     title = "Modellus X"
-    subtitle = "A freely available application used worlwide that enables students and teachers (high school and university) to use mathematics to create or explore models interactively."
+    subtitle = "A freely available application used worldwide that enables students and teachers (high school and university) to use mathematics to create or explore models interactively."
     url = "https://pixelduke.com/work/#Modellus"
 
     [[params.work.row]]
