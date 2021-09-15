@@ -343,6 +343,13 @@ theme = "hugo-elate-theme"
     subtitle = "MaterialFX is not just another theme. MaterialFX brings restyles, remade and brand new controls to JavaFX. It also offer many utilities to ease JavaFX apps development."
     url = "https://github.com/palexdev/MaterialFX"
 
+    [[params.work.row]]
+    img = "Actlist.png"
+    alt = "Actlist"
+    title = "Actlist"
+    subtitle = "JavaFx Utility Platform to easy and simply execute your own act list."
+    url = "https://github.com/actlist/actlist"
+
   # Testimonials section
   [params.testimonials]
   enable = true
