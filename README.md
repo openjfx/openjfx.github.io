@@ -17,3 +17,7 @@ The repository has 2 branches:
 
 * All PRs should be raised against the `develop` branch. 
 * The source code for [Getting Started with JavaFX 11](https://openjfx.io/openjfx-docs/) resides in [openjfx/openjfx-docs](https://github.com/openjfx/openjfx-docs) repository.
+
+## For Developers:
+
+You can test this website  with the following statement: `hugo server`
