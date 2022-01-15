@@ -350,6 +350,13 @@ theme = "hugo-elate-theme"
     subtitle = "JavaFx Utility Platform to easy and simply execute your own act list."
     url = "https://github.com/actlist/actlist"
 
+    [[params.work.row]]
+    img = "Idaesbasic.png"
+    alt = "Idaesbasic"
+    title = "Idaesbasic"
+    subtitle = "Javafx project managment tool"
+    url = "https://benherbst.github.io/idaesbasic/"
+
   # Testimonials section
   [params.testimonials]
   enable = true
