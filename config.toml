@@ -176,6 +176,13 @@ theme = "hugo-elate-theme"
       url = "https://dlsc.com/products/flexganttfx/"
 
     [[params.work.row]]
+      img = "jfxcentral.png"
+      alt = "JFX Central opened in the browser"
+      title = 'JFX Central'
+      subtitle = "Community-driven webpage about JavaFX. Runs with JavaFX and JPro on the Web."
+      url = "https://jfx-central.com/"
+
+    [[params.work.row]]
       img = "GluonMaps-1024x592@2x.png"
       alt = "Gluon Maps"
       title = "Gluon Maps"
