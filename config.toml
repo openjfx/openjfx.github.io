@@ -33,7 +33,7 @@ theme = "hugo-elate-theme"
 
     # postpended links
     [[menu.postpend]]
-      url = "/highlights/17"
+      url = "/highlights/18"
       name = "Highlights"
       weight = 1
 
@@ -104,19 +104,19 @@ theme = "hugo-elate-theme"
 
     [[params.documentation.reference.item]]
       title = "API documentation"
-      url = "/javadoc/17/"
+      url = "/javadoc/18/"
 
     [[params.documentation.reference.item]]
       title = "Introduction to FXML"
-      url = "/javadoc/17/javafx.fxml/javafx/fxml/doc-files/introduction_to_fxml.html"
+      url = "/javadoc/18/javafx.fxml/javafx/fxml/doc-files/introduction_to_fxml.html"
 
     [[params.documentation.reference.item]]
       title = "JavaFX CSS Reference Guide"
-      url = "/javadoc/17/javafx.graphics/javafx/scene/doc-files/cssref.html"
+      url = "/javadoc/18/javafx.graphics/javafx/scene/doc-files/cssref.html"
 
     [[params.documentation.reference.item]]
       title = "Release Notes"
-      url = "https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-17.md"
+      url = "https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-18.md"
 
     [[params.documentation.community.item]]
       title = "FXDocs"
