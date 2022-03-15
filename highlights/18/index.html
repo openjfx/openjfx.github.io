@@ -2,7 +2,7 @@
 <head>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> JavaFX 15 Highlights</title>
+    <title> JavaFX 18 Highlights</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -14,11 +14,11 @@
     
     
     <meta name="og:site_name" content="JavaFX">
-    <meta name="og:title" content="JavaFX 15 Highlights">
-    <meta name="og:url" content="localhost:1313/highlights/15/">
+    <meta name="og:title" content="JavaFX 18 Highlights">
+    <meta name="og:url" content="localhost:1313/highlights/18/">
     <meta name="og:image" content="localhost:1313images/">
     <meta name="twitter:title" content="JavaFX" />
-    <meta name="twitter:url" content="localhost:1313/highlights/15/" />
+    <meta name="twitter:url" content="localhost:1313/highlights/18/" />
     <meta name="twitter:image" content="localhost:1313images/" />
     <meta name="twitter:card" content="" />
     
@@ -116,54 +116,45 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="box">
-                        <h1 id="javafx-15-highlights">JavaFX 15 Highlights</h1>
-<p class="content">A couple of weeks ago, JavaFX version 15 was released. We&rsquo;ve tailored down some of the most exciting parts of the release in this document.</p>
-<p class="content">Exciting features:</p>
+                        <h1 id="javafx-18-highlights">JavaFX 18 Highlights</h1>
+<p class="content">JavaFX version 18 has been released. We&rsquo;ve tailored down some of the most exciting parts of the release in this document.</p>
+<p class="content">New features:</p>
 <ul>
-<li>JavaFX now has 3D support for the newer Intel graphics drivers on Linux</li>
-<li>Support for e-paper displays on i.MX6 devices was added</li>
-<li>FX scripting support was enhanced</li>
+<li>JavaFX Media now has support for H.265/HEVC</li>
+<li>Node&rsquo;s managed property can now be styled using CSS</li>
+<li>Convenience factory methods for Border and Background</li>
 </ul>
 <p class="content">Improvements:</p>
 <ul>
-<li>Better native keyboard handling and integration on iOS and Android</li>
-<li>Adjusted font size in JavaFX apps with enabled Monocle on Raspberry Pi</li>
-<li>Capped the refresh rate on iOS (to a maximum of 30 Hz)</li>
+<li>JavaFX modules include version information</li>
+<li>JavaFX Webview supports transparent backgrounds</li>
+<li>Improvement in selection performance for TableView</li>
 </ul>
 <p class="content">Removal and Clean up:</p>
 <ul>
-<li>The JavaBeanXxxPropertyBuilders constructors were removed</li>
-<li>The deprecated finalize() methods from JavaFX property objects were removed</li>
-<li>Some unnecessary logging, e.g. for pinch gestures on iOS, is now skipped</li>
+<li>JavaFX GTK 2 library has been deprecated for removal</li>
 </ul>
-<p class="content">In the bug fix department, you’ll find, among others:</p>
+<p class="content">The community came together to fix 74 bugs in the last 6 months with nearly half of them going into the &lsquo;controls&rsquo;.
+Following are major bug-fixes that went into 18:</p>
 <ul>
-<li>A fix for the SVG patterns that were drawn incorrectly</li>
-<li>A solution for some inconsistencies with controls, such as:
+<li>
+<p class="content">Skin and behavior fixes in multiple controls:</p>
 <ul>
-<li>The incorrect arrow key traversal through tabs after reordering the tabs in a TabPane</li>
-<li>The lost formatting when using Ctrl-A in HTMLEditor</li>
-<li>The wrong Scrollbar position on touch supported devices</li>
+<li>Misbehavior on switching skin has been fixed for TextField, TableView and TreeTableView</li>
+<li>NPE on calling startEdit on TextFieldXXCell, TableCell and TreeTableCell</li>
+<li>Better support for disposing skin elements across controls</li>
 </ul>
 </li>
-<li>A fix for memory leaks, e.g. in the ProgressIndicator class, in the ToggleButton.setToggleGroup() method, and in some other places</li>
-<li>Better code hygiene to avoid exceptions such as:
+<li>
+<p class="content">MediaPlayer had the following fixes:</p>
 <ul>
-<li>An IndexOutOfBoundsException when requesting focus on an empty bar</li>
-<li>A StringOutOfBoundsException when adding a ChangeListener to TextField.selectedTextProperty()</li>
-<li>Possible NullPointerExceptions in TabPaneSkin.performDrag(), in the MenuButtonSkinBase change listener, and while entering empty submenu with &ldquo;arrow right&rdquo;</li>
+<li>No speakers connected to the PC while playing an mp4 video results in no display</li>
+<li>Video stops, but audio continues to play when stopTime is reached on MacOS</li>
 </ul>
 </li>
 </ul>
-<p class="content">Finally, these are some dependency upgrades in JavaFX 15:</p>
-<ul>
-<li>Upgraded libFFI to version 3.3</li>
-<li>Upgraded SQLite to version 3.32.3</li>
-<li>Upgraded WebKit to version 609.1</li>
-<li>Upgraded libxml2 to version 2.9.10</li>
-</ul>
-<p class="content">A more comprehensive list of all the changes in JavaFX 15 can be found on <a href="https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-15.md">Github</a>.</p>
-<p class="content">Kudos go to the fine people at <a href="https://gluonhq.com">Gluon</a> who took care of the bulk of the work on JavaFX 15. Do check their <a href="https://gluonhq.com/services/javafx-support/">JavaFX Long Term Support</a> services.</p>
+<p class="content">A more comprehensive list of all the changes in JavaFX 18 can be found on <a href="https://github.com/openjdk/jfx/blob/jfx18/doc-files/release-notes-18.md">Github</a>.</p>
+<p class="content">Kudos go to the fine people at <a href="https://gluonhq.com">Gluon</a> who took care of the bulk of the work on JavaFX 18. Do check their <a href="https://gluonhq.com/services/javafx-support/">JavaFX Long Term Support</a> services.</p>
 
                     </div>
                 </div>
