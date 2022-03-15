@@ -116,7 +116,7 @@ theme = "hugo-elate-theme"
 
     [[params.documentation.reference.item]]
       title = "Release Notes"
-      url = "https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-18.md"
+      url = "https://github.com/openjdk/jfx/blob/jfx18/doc-files/release-notes-18.md"
 
     [[params.documentation.community.item]]
       title = "FXDocs"
