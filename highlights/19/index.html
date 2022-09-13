@@ -2,7 +2,7 @@
 <head>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Tags</title>
+    <title> JavaFX 19 Highlights</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -14,11 +14,11 @@
     
     
     <meta name="og:site_name" content="JavaFX">
-    <meta name="og:title" content="Tags">
-    <meta name="og:url" content="localhost:1313/tags/">
+    <meta name="og:title" content="JavaFX 19 Highlights">
+    <meta name="og:url" content="localhost:1313/highlights/19/">
     <meta name="og:image" content="localhost:1313images/">
     <meta name="twitter:title" content="JavaFX" />
-    <meta name="twitter:url" content="localhost:1313/tags/" />
+    <meta name="twitter:url" content="localhost:1313/highlights/19/" />
     <meta name="twitter:image" content="localhost:1313images/" />
     <meta name="twitter:card" content="" />
     
@@ -60,7 +60,7 @@
     <script src="/js/analytics.js"></script>
 
 </head>
-<body class="">
+<body class="content">
     <header role="banner" id="fh5co-header">
         <div class="container">
             
@@ -116,7 +116,45 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="box">
-                        
+                        <h1 id="javafx-19-highlights">JavaFX 19 Highlights</h1>
+<p class="content">JavaFX version 19 has been released. We&rsquo;ve tailored down some of the most exciting parts of the release in this document.</p>
+<p class="content">New features:</p>
+<ul>
+<li>In JavaFX 18, Media support for H.265/HEVC codec was added. In JavaFX 19, the coded support has been extended toHTTP Live Streaming</li>
+<li>New API: Map, FlatMap and OrElse fluent bindings for ObservableValue</li>
+<li>Two new CSS pseudo-classes for Node :focus-visible and :focus-within</li>
+</ul>
+<p class="content">Improvements:</p>
+<ul>
+<li>Faster observable ArrayList creation in FXCollections</li>
+<li>Available list of printers can now be updated without a need to restart the application</li>
+</ul>
+<p class="content">In the bug fix department, you’ll find, among others:</p>
+<ul>
+<li>Modal behavior fixes for Stage on Linux platform</li>
+<li>ES2Pipeline detection for AMD vega20 graphics card</li>
+<li>Fixes related to touch screen:
+<ul>
+<li>ScrollPane edge bounce on Raspberry Pi with Touchscreen</li>
+<li>Mouse or touch presses on a non-focusable region don&rsquo;t clear the focusVisible flag of the current focus owner</li>
+<li>With Touch enabled devices scrollbar disappears and the table is scrolled to the beginning</li>
+<li>Touch events related leaks in ScrollPaneSkin</li>
+</ul>
+</li>
+</ul>
+<p class="content">Finally, these are some dependency upgrades in JavaFX 19:</p>
+<ul>
+<li>Upgraded libFFI to version 3.4.2</li>
+<li>Upgraded GStreamer to version 1.20.1</li>
+<li>Upgraded Glib to version 2.72.0</li>
+<li>Upgraded WebKit to version 613.1</li>
+<li>Upgraded SQLite to version 3.37.2</li>
+<li>Upgraded libxml2 to version 2.9.14</li>
+<li>Upgraded libxslt to version 1.1.35</li>
+</ul>
+<p class="content">A more comprehensive list of all the changes in JavaFX 19 can be found on <a href="https://github.com/openjdk/jfx/blob/jfx19/doc-files/release-notes-19.md">Github</a>.</p>
+<p class="content">Kudos go to the fine people at <a href="https://gluonhq.com">Gluon</a> who took care of the bulk of the work on JavaFX 19. Do check their <a href="https://gluonhq.com/services/javafx-support/">JavaFX Long Term Support</a> services.</p>
+
                     </div>
                 </div>
             </div>
