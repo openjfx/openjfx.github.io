@@ -36,6 +36,6 @@ Finally, these are some dependency upgrades in JavaFX 19:
 - Upgraded libxslt to version 1.1.35
 
 
-A more comprehensive list of all the changes in JavaFX 19 can be found on [Github](https://github.com/openjdk/jfx/blob/jfx19/doc-files/release-notes-19.md).
+A more comprehensive list of all the changes in JavaFX 19 can be found on [Github](https://github.com/openjdk/jfx/blob/master/doc-files/release-notes-19.md).
 
 Kudos go to the fine people at [Gluon](https://gluonhq.com) who took care of the bulk of the work on JavaFX 19. Do check their [JavaFX Long Term Support](https://gluonhq.com/services/javafx-support/) services.
