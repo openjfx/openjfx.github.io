@@ -48,7 +48,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Download"
-    description = 'JavaFX runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in Maven Central.'
+    description = 'JavaFX runtime is available as a platform-specific SDK, as a number of jmods, and as a set of artifacts in Maven Central.'
     url = "https://gluonhq.com/products/javafx/"
     button = "Download"
     icon = "icon-cloud-download"
