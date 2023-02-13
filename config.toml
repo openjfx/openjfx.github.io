@@ -37,6 +37,11 @@ theme = "hugo-elate-theme"
       name = "Highlights"
       weight = 1
 
+    [[menu.postpend]]
+      url = "https://github.com/openjfx/openjfx.github.io"
+      name = "Contents of this site on Github"
+      weight = 1
+
   # Hero section
   [params.hero]
     title = 'JavaFX'
