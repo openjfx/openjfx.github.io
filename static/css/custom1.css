@@ -131,3 +131,33 @@ h1#javafx-15-highlights {
 #fh5co-documentation .community a:hover, a:active, a:focus {
     color: #A4D792;
 }
+
+.navbar a.icon {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.navbar svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    opacity: 0.5;
+}
+
+.navbar svg:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar svg {
+        width: 24px;
+        height: 24px;
+        fill: #000000;
+        opacity: 0.5;
+    }
+
+    .navbar svg:hover {
+        fill: #52d3aa;
+        opacity: 1;
+    }
+}
