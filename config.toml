@@ -124,7 +124,7 @@ theme = "hugo-elate-theme"
 
     [[params.documentation.community.item]]
       title = "Jenkov.com"
-      url = "http://tutorials.jenkov.com/javafx/"
+      url = "http://tutorials.jenkov.com/javafx/index.html"
 
     [[params.documentation.community.item]]
       title = "Almas Baimagambetov's Youtube tutorials"
