@@ -25,6 +25,7 @@ Exciting features:
   - Platform class has a new method `canStartNestedEventLoop` which can used to check whether it is safe to start a nested event loop
   - TextFlow has a new method `underlineShape(int, int)` to enable spellchecker decoration (squiggly line) under text region
   - TableHeaderRow has a new protected method `showColumnMenu(mouseEvent)`, allowing developers to customize the behaviour when the table menu button is clicked
+- All new APIs since JavaFX 9 can now be easily accessed from the [javadoc](https://openjfx.io/javadoc/21/new-list.html) under the `New` section.
 
 Improvements:
 - Performance improvement in VirtualFlow
