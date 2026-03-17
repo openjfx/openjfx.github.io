@@ -18,9 +18,31 @@ See [JDK-8365402](https://bugs.openjdk.org/browse/JDK-8365402) for more informat
 
 ### Owned Windows No Longer Move When Owner Moves on macOS
 
-On macOS, an owned (child) window used to move along with its owner, whenever the owner window was moved. This behavior caused the owned window to disappear when moved to a secondary screen. The former behavior of owned windows was also inconsistent with the behavior on Linux and Windows platforms. This fix makes the behavior of owned windows consistent across platforms.
+On macOS, an owned (child) window used to move along with its owner, whenever the owner window was moved.
+This behavior caused the owned window to disappear when moved to a secondary screen.
+The former behavior of owned windows was also inconsistent with the behavior on Linux and Windows platforms.
+This fix makes the behavior of owned windows consistent across platforms.
 
 See [JDK-8252373](https://bugs.openjdk.org/browse/JDK-8252373) for more information.
+
+### Headless Platform Prototype: Streamlining CI/CD
+
+A highly anticipated addition in JavaFX 26 is the Headless platform prototype.
+For years, running JavaFX applications in environments without a display—such as Docker containers or cloud-based CI/CD runners—required complex workarounds like Xvfb.
+This new native headless glass platform allows JavaFX to run without a graphical environment.
+
+This is a game-changer for automated testing.
+You can now execute UI tests, perform server-side node snapshotting, or run data-heavy scene graph calculations on headless servers with significantly less overhead.
+To experiment with this feature, simply launch your application with the flag `-Dglass.platform=headless`.
+
+See [JDK-8364687](https://bugs.openjdk.org/browse/JDK-8364687) for more information.
+
+### Modern Graphics: macOS Metal Pipeline
+
+A major milestone in this release is the implementation of the macOS Metal Rendering Pipeline. 
+This transition away from OpenGL ensures better graphics performance and compatibility with modern Apple hardware and future versions of macOS.
+
+See [JDK-8271024](https://bugs.openjdk.org/browse/JDK-8271024) for more information.
 
 ## Removed Features and Options
 
@@ -40,8 +62,6 @@ Exciting features:
   - Piecewise linear easing function added for animation interpolation 
   - RichTextArea improvements including `insertStyles` property and multiple enhancements to rich text editing capabilities
   - RichParagraph enhancements for better paragraph-level formatting support
-  - macOS Metal Rendering Pipeline implemented to improve graphics performance and modern GPU compatibility
-  - Headless platform prototype for JavaFX enabling JavaFX to run without a graphical environment
   - New graphics capabilities
     - Viewport media feature queries 
     - Background image loading from InputStream 
