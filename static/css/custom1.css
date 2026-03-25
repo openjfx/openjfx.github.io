@@ -137,26 +137,28 @@ h1#javafx-15-highlights {
     padding-bottom: 13px;
 }
 
-.navbar svg {
+.navbar__icon {
     width: 24px;
     height: 24px;
-    fill: #ffffff;
     opacity: 0.5;
+
+    /* to white */
+    filter: brightness(0) invert(1);
 }
 
-.navbar svg:hover {
+.navbar__icon:hover {
     opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
-    .navbar svg {
+    .navbar__icon {
         width: 24px;
         height: 24px;
         fill: #000000;
         opacity: 0.5;
     }
 
-    .navbar svg:hover {
+    .navbar__icon:hover {
         fill: #52d3aa;
         opacity: 1;
     }

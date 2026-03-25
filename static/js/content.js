@@ -43,6 +43,8 @@
         });
     };
 
+    // todo: why is this duplicate with main.js ???
+
     // Page Nav
     var clickMenu = function() {
         $('#navbar a:not([class="external"])').click(function(event){

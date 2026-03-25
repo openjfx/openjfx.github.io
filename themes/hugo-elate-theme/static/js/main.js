@@ -2,20 +2,6 @@
 	
 	'use strict';
 
-
-
-	// iPad and iPod detection	
-	var isiPad = function(){
-		return (navigator.platform.indexOf("iPad") != -1);
-	};
-
-	var isiPhone = function(){
-	    return (
-			(navigator.platform.indexOf("iPhone") != -1) || 
-			(navigator.platform.indexOf("iPod") != -1)
-	    );
-	};
-
 	// Parallax
 	var parallax = function() {
 		$(window).stellar();
@@ -61,28 +47,33 @@
 
 	// Page Nav
 	var clickMenu = function() {
+		document.querySelectorAll('#navbar a').forEach(link => {
+			if (link.classList.contains('external')) {
+				return;
+			}
 
-		$('#navbar a:not([class="external"])').click(function(event){
-			var section = $(this).data('nav-section'),
-				navbar = $('#navbar');
+			link.addEventListener('click', (event) => {
+				event.preventDefault();
 
-				if ( $('[data-section="' + section + '"]').length ) {
-			    	$('html, body').animate({
-			        	scrollTop: $('[data-section="' + section + '"]').offset().top
-			    	}, 500);
-			   }
+				const section = link.getAttribute('data-nav-section');
+				const navbar = $('#navbar');
 
-		    if ( navbar.is(':visible')) {
-		    	navbar.removeClass('in');
-		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-fh5co-nav-toggle').removeClass('active');
-		    }
+				const dataSection = $('[data-section="' + section + '"]');
+				if (dataSection.length) {
+					$('html, body').animate({
+						scrollTop: dataSection.offset().top
+					}, 500);
+				}
 
-		    event.preventDefault();
-		    return false;
+				if (navbar.is(':visible')) {
+					navbar.removeClass('in');
+					navbar.attr('aria-expanded', 'false');
+					$('.js-fh5co-nav-toggle').removeClass('active');
+				}
+
+				return false;
+			});
 		});
-
-
 	};
 
 	// Reflect scrolling in navigation
